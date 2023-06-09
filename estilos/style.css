@@ -19,7 +19,7 @@ body * {
 }
 
 body {
-    min-height: 100vh;
+    
     background-image: linear-gradient(to bottom, #53466b, #8d4845);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -77,11 +77,12 @@ ul li a:hover {
 #links {
     width: 40px;
     height: 40px;
+    padding-top: 24px;
 }
 
 #insta {
     position: absolute;
     width: 24px;
     height: 24px;
-    transform: translate(400px, 16px);
+    left: calc(50% - 24px/2 - 0.75px);
 }
